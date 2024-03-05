@@ -1,6 +1,7 @@
 # Core_WebApp_Python
 A Basic Demonstration App in python flask for a client-server architecture.
 This app demonstrates a Web server architecture with sqlite connection for a basic login page.
+Gunicorn here provides support for production server.
 
 To run the app: 
 1. Make sure python3 is installed
