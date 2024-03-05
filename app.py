@@ -36,4 +36,8 @@ def login():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Run the Flask app using Gunicorn
+    # Use 0.0.0.0 to allow external connections
+    # Use a specific port (e.g., 8000)
+    # Set the number of worker processes (e.g., 4)
+    app.run(host='0.0.0.0', port=8000, workers=4)
